@@ -19,8 +19,8 @@
   --bg-white: #fff;
 
   /* Text Colors */
-  --primary-text: #061738;
-  --secondary-color: #60cd12;
+  --primary-text: #122d42;
+  --secondary-color: #4a90e2;
   --light-color: #e2f6de;
   --dark-color: #03262c;
   --text-white: #fff;
@@ -145,7 +145,7 @@ button:hover {
 .main-btn {
   position: relative;
   color: var(--bg-white);
-  background: linear-gradient(to right, #0f7404, #5cb917);
+  background: linear-gradient(to right, #4a90e2, #585079);
   z-index: 1;
   overflow: hidden;
   border: 0.2rem solid var(--bg-white);
@@ -154,7 +154,6 @@ button:hover {
   padding: 1rem 3.5rem;
   font-weight: 600;
   font-size: 1.8rem;
-  margin-top: 1.5rem;
   letter-spacing: 0.2rem;
 }
 
@@ -167,3 +166,137 @@ button:hover {
 section {
   padding: 5rem 0;
 }
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  text-transform: capitalize;
+  margin-bottom: 2rem;  
+
+}
+
+.section-subtitle {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
+  max-width: 40%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* Navbar css */
+
+.header {
+  /* position: absolute; */
+  width: 100%;
+  /* top: 2rem; */
+  /* left: 0; */
+  /* z-index: 2; */
+  background-color: #fff;
+}
+
+.navbar-brand {
+  width: 150px;
+  margin-top: -0.1rem;
+}
+
+.header .navbar-nav .nav-link {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  margin: 0 0.2rem;
+  font-family: var(--primary-font);
+}
+
+.header .navbar-nav .nav-link:hover,
+.header .navbar-nav .nav-link.active {
+  color: var(--secondary-color);
+}
+
+.header .navbar-toggler {
+  color: black;
+  font-size: 3rem;
+  height: 2.7rem;
+  padding: 0;
+}
+
+.header .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.header .header_right span {
+  color: var(--primary-color);
+  display: block;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.header .header_right .phone_no {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+}
+
+
+/* Carousel css */
+.carousel-caption {
+  left: 10%;
+  right: auto;
+  top: 60%;
+  transform: translateY(-50%);
+  text-align: left;
+  width: 40%;
+}
+.carousel-caption h2 {
+  font-size: 44px;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+
+
+/* Feature css */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card-icon {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.card-description {
+  font-size: 1rem;
+  color: #666;
+}
+@media (max-width: 768px) {
+  .card-icon {
+      font-size: 2rem;
+  }
+  .card-title {
+      font-size: 1.25rem;
+  }
+  .card-description {
+      font-size: 0.9rem;
+  }
+}
+
+
