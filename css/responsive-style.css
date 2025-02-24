@@ -39,6 +39,10 @@
     font-size: 54px;
     margin-bottom: 0;
   }
+
+  .contact_address {
+    margin-bottom: 70px;
+  }
 }
 
 @media (max-width: 1024px) {
