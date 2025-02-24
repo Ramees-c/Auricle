@@ -286,4 +286,18 @@ section {
   text-align: justify;
 }
 
+/* About section */
+.landing_about_section {
+  background: url("../assets/about/qbout2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 9rem 0;
+}
+
+.landing_about_section p {
+  color: var(--primary-text);
+  margin-bottom: 2rem;
+}
+
 
