@@ -264,39 +264,26 @@ section {
 
 
 /* Feature css */
-.card {
+.feature_section .card {
+  max-width: 60em;
+  height: 250px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
   border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
 }
-.card:hover {
-  transform: translateY(-5px);
+
+.feature_section .card img {
+  max-width: 25%;
+  margin: auto;
+  padding: 0.5em;
+  border-radius: 0.7em;
 }
-.card-icon {
-  font-size: 2.5rem;
-  color: #007bff;
-  margin-bottom: 1rem;
-}
-.card-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-.card-description {
-  font-size: 1rem;
-  color: #666;
-}
-@media (max-width: 768px) {
-  .card-icon {
-      font-size: 2rem;
-  }
-  .card-title {
-      font-size: 1.25rem;
-  }
-  .card-description {
-      font-size: 0.9rem;
-  }
+
+.feature_section .card-text {
+  text-align: justify;
 }
 
 
