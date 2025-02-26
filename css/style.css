@@ -213,7 +213,7 @@ section {
   font-size: 1.2rem;
 }
 .carousel-caption .btn {
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 /* Feature css */
@@ -263,9 +263,6 @@ section {
   color: var(--secondary-color);
 }
 
-/* .contact_section .contact_address {
-  gap: 150px;
-}  */
 
 .contact_section form input {
   height: 40px;
