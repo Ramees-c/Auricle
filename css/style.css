@@ -180,12 +180,12 @@ section {
   color: var(--primary-color);
   display: block;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 
 .header .header_right .phone_no {
   color: var(--secondary-color);
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 /* Carousel css */

@@ -43,6 +43,10 @@
   .carousel-caption .btn {
     margin-top: 10px;
   }
+
+  .contact_section .contact_number {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1024px) {
