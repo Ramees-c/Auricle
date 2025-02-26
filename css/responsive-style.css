@@ -1,13 +1,9 @@
 /* Media Query 1170px */
 @media (max-width: 1170px) {
   /* General CSS */
-  .section-subtitle {
-    max-width: 60%;
-  }
+  
 
-  section {
-    padding: 5rem 0;
-  }
+ 
 
   .container {
     padding-left: 20px;
@@ -23,10 +19,6 @@
     margin-top: 2rem;
   }
 
-  .header .navbar-nav .nav-link {
-    padding: 0.2rem 0.5rem;
-    margin-bottom: 1rem;
-  }
 
   .header .header_right span {
     padding: 0.2rem 0.5rem;
@@ -77,24 +69,12 @@
     margin-top: 2rem;
   }
 
-  .header .navbar-nav .nav-link {
-    padding: 0.2rem 0.5rem;
-    margin-bottom: 1rem;
-  }
 
   .header .header_right span {
     padding: 0.2rem 0.5rem;
   }
 
-  /* General CSS */
-  /* .about .banner_section,
-    .product .banner_section,
-    .Gallery .banner_section,
-    .contact .banner_section {
-      padding-top: 12.5rem;
-      padding-bottom: 3rem;
-    } */
-
+ 
   /* carousel css */
   .carousel-caption h2 {
     font-size: 44px;
@@ -110,9 +90,7 @@
     font-size: 8px;
   }
 
-  .section-subtitle {
-    max-width: 80%;
-  }
+
 
   .carousel-caption h2 {
     font-size: 14px;
@@ -135,7 +113,11 @@
   }
 
   .carousel-caption {
-    top: 45%;
+    top: 40%;
+  }
+
+  section {
+    padding: 5rem 0;
   }
 }
 

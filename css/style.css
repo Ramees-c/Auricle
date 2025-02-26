@@ -98,6 +98,7 @@ p {
   font-family: var(--secondary-font);
 }
 
+
 embed,
 iframe,
 img,
@@ -167,66 +168,20 @@ section {
   padding: 10rem 0;
 }
 
-.section-title {
-  font-size: 4rem;
-  font-weight: 600;
-  color: var(--primary-text);
-  text-transform: capitalize;
-  margin-bottom: 2rem;  
 
-}
 
-.section-subtitle {
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: var(--primary-text);
-  font-family: var(--secondary-font);
-  max-width: 40%;
-  margin: auto;
-  margin-bottom: 1.5rem;
-}
+
 
 /* Navbar css */
 
 .header {
-  /* position: absolute; */
   width: 100%;
-  /* top: 2rem; */
-  /* left: 0; */
-  /* z-index: 2; */
   background-color: #fff;
 }
 
 .navbar-brand {
   width: 150px;
   margin-top: -0.1rem;
-}
-
-.header .navbar-nav .nav-link {
-  color: var(--primary-color);
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  font-weight: 600;
-  padding: 0.5rem 2rem;
-  margin: 0 0.2rem;
-  font-family: var(--primary-font);
-}
-
-.header .navbar-nav .nav-link:hover,
-.header .navbar-nav .nav-link.active {
-  color: var(--secondary-color);
-}
-
-.header .navbar-toggler {
-  color: black;
-  font-size: 3rem;
-  height: 2.7rem;
-  padding: 0;
-}
-
-.header .navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
 }
 
 .header .header_right span {
@@ -240,7 +195,6 @@ section {
   color: var(--secondary-color);
   font-size: 1.6rem;
 }
-
 
 /* Carousel css */
 .carousel-caption {
@@ -261,7 +215,6 @@ section {
 .carousel-caption .btn {
   margin-top: 10px;
 }
-
 
 /* Feature css */
 .feature_section .card {
@@ -302,12 +255,11 @@ section {
   text-align: justify;
 }
 
-
 /* Contact section */
 .contact_section .icon {
- font-size: 30px;
- margin-bottom: 10px;
- color: var(--secondary-color);
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
 }
 
 /* .contact_section .contact_address {
@@ -333,16 +285,14 @@ section {
   font-size: 16px;
 }
 
-
 /* Footer section */
 .footer {
   background-color: var(--primary-text);
 }
 
-
 .footer a i {
   font-size: 2.5rem;
-  color: var(--white-color);
+  color: linear-gradient(to right, #4a90e2, #585079);
   padding: 0 1rem;
 }
 
