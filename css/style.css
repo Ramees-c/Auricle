@@ -21,12 +21,9 @@
   /* Text Colors */
   --primary-text: #122d42;
   --secondary-color: #4a90e2;
-  --light-color: #e2f6de;
   --dark-color: #03262c;
   --text-white: #fff;
   --text-gray: #dee2e6;
-  --anchor-color: #007aff;
-
   /* Font Family */
   --primary-font: "Barlow Condensed", sans-serif;
   --secondary-font: "Roboto", sans-serif;
@@ -98,7 +95,6 @@ p {
   font-family: var(--secondary-font);
 }
 
-
 embed,
 iframe,
 img,
@@ -168,10 +164,6 @@ section {
   padding: 10rem 0;
 }
 
-
-
-
-
 /* Navbar css */
 
 .header {
@@ -218,7 +210,6 @@ section {
 
 /* Feature css */
 .feature_section .card {
-  max-width: 60em;
   height: 250px;
   flex-direction: row;
   align-items: center;
@@ -262,7 +253,6 @@ section {
   margin-bottom: 10px;
   color: var(--secondary-color);
 }
-
 
 .contact_section form input {
   height: 40px;
