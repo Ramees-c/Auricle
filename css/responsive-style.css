@@ -1,10 +1,6 @@
 /* Media Query 1170px */
 @media (max-width: 1170px) {
   /* General CSS */
-  
-
- 
-
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -19,7 +15,6 @@
     margin-top: 2rem;
   }
 
-
   .header .header_right span {
     padding: 0.2rem 0.5rem;
   }
@@ -27,7 +22,7 @@
   .main-btn {
     padding: 1rem 2rem;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   /* corousel css */
@@ -69,12 +64,10 @@
     margin-top: 2rem;
   }
 
-
   .header .header_right span {
     padding: 0.2rem 0.5rem;
   }
 
- 
   /* carousel css */
   .carousel-caption h2 {
     font-size: 44px;
@@ -90,8 +83,6 @@
     font-size: 8px;
   }
 
-
-
   .carousel-caption h2 {
     font-size: 14px;
   }
@@ -106,11 +97,6 @@
 
 /* Media Query 590px */
 @media (max-width: 520px) {
-  /* General CSS */
-  body,
-  html {
-    font-size: 7px;
-  }
 
   .carousel-caption {
     top: 40%;
