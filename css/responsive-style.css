@@ -107,6 +107,10 @@
   section {
     padding: 5rem 0;
   }
+
+  .contact_section .contact_number {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 344px) {
@@ -118,4 +122,5 @@
   .carousel-caption p {
     font-size: 9px;
   }
+  
 }
