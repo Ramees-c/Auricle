@@ -92,12 +92,10 @@
   .carousel-caption {
     top: 50%;
   }
-  
 }
 
 /* Media Query 590px */
 @media (max-width: 520px) {
-
   .carousel-caption {
     top: 40%;
   }
