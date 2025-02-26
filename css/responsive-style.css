@@ -59,11 +59,6 @@
 /* Media Query 991px */
 @media (max-width: 991px) {
   /* 01 Navbar CSS */
-  .header .navbar {
-    background-size: cover;
-    padding: 1rem 2rem;
-  }
-
   .header .navbar-nav {
     margin-top: 2rem;
   }

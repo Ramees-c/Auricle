@@ -36,7 +36,7 @@
     <!-- AOS animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body style="overflow-x: hidden;">
+  <body style="overflow-x: hidden">
     <!-- Navbar section -->
     <header id="full_nav">
       <div class="header">
@@ -122,7 +122,8 @@
               speech services
             </h2>
             <p class="text-white fs-3">
-              Speech pathologists expertly treat Autism and developmental delays.
+              Speech pathologists expertly treat Autism and developmental
+              delays.
             </p>
             <a href="#" class="btn main-btn">Learn More</a>
           </div>
@@ -374,7 +375,7 @@
               <div class="mb-5">
                 <label class="form-label">Name</label>
                 <input
-                  type="email"
+                  type="name"
                   class="form-control"
                   id="name"
                   placeholder="Enter Name"
@@ -382,8 +383,12 @@
               </div>
               <div class="mb-5">
                 <label class="form-label">Email</label>
-                <inputdata-aos="fade-right"mail" class="form-control" id="email"
-                placeholder="Enter Email" />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Email"
+                />
               </div>
               <div>
                 <label class="form-label">Message</label>
@@ -415,8 +420,14 @@
             <div class="col-md-12 text-center">
               <div class="footer-social pt-4 text-center">
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a
+                  href="https://www.instagram.com/auricle_sho"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://wa.me/+916235566111" target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
                 <a href="mailto:auricleindia@gmail.com"
                   ><i class="fa-solid fa-envelope"></i
                 ></a>
@@ -454,7 +465,7 @@
         var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
         var message = document.getElementById("message").value;
-        var phoneNumber = "+918086487219"; // Replace with your WhatsApp number
+        var phoneNumber = "+916235566111";
 
         var encodedMessage = `Hello,%0A%0AMy Name: ${name}%0AEmail: ${email}%0A%0AMessage:%0A${message}`;
         var whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
