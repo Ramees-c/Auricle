@@ -415,9 +415,9 @@
         var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
         var message = document.getElementById("message").value;
-        var phoneNumber = "8086842985"; // Replace with your WhatsApp number
+        var phoneNumber = "+918086842985"; // Replace with your WhatsApp number
 
-        var encodedMessage = `Hello, My Name is ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+        var encodedMessage = `Hello, my name is ${name}.\n${email}\n${message}`;
         var whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
         window.open(whatsappURL, "_blank");
