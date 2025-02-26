@@ -246,13 +246,13 @@ section {
 .carousel-caption {
   left: 10%;
   right: auto;
-  top: 60%;
+  top: 50%;
   transform: translateY(-50%);
   text-align: left;
   width: 40%;
 }
 .carousel-caption h2 {
-  font-size: 44px;
+  font-size: 54px;
   font-weight: bold;
 }
 .carousel-caption p {
@@ -298,6 +298,7 @@ section {
 .landing_about_section p {
   color: var(--primary-text);
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 
@@ -331,3 +332,19 @@ section {
   font-size: 16px;
 }
 
+
+/* Footer section */
+.footer {
+  background-color: var(--primary-text);
+}
+
+
+.footer a i {
+  font-size: 2.5rem;
+  color: var(--white-color);
+  padding: 0 1rem;
+}
+
+.footer a i:hover {
+  color: white;
+}

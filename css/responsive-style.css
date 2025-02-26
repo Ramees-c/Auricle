@@ -5,6 +5,15 @@
     max-width: 60%;
   }
 
+  section {
+    padding: 5rem 0;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   /* 01 Navbar CSS */
   .header .navbar {
     padding: 2rem;
@@ -126,7 +135,7 @@
   }
 
   .carousel-caption {
-    top: 35%;
+    top: 45%;
   }
 }
 
